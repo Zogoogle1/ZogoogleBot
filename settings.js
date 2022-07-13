@@ -44,7 +44,7 @@ global.mess = {
     bot: 'Features hi Bot chauh hman thei ani!..',
     wait: 'Reilo te min lo nghak lawk rawh...',
     error: 'Error! API Key hi a a thi tawh😥!',
-    endLimit: 'i daily limet a zo tawh, Darkar 12 hnu a i nei leg chauh ang',
+    endLimit: 'I daily limit a zo tawh, Darkar 12 hnu a i nei leg chauh ang',
 }
     global.limitawal = {
     premium: "Infinity",
