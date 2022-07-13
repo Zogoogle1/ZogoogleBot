@@ -19,32 +19,32 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['+918416093656']
-global.premium = ['+918416093656']
-global.ownernomer = '+918416093656'
+global.owner = ['+91 8416093656']
+global.premium = ['+91 8416093656']
+global.ownernomer = '+91 8416093656'
 global.ownername = 'Herbert Suntak'
 global.botname = 'HBWABot'
 global.footer = '©Herbert-inc.'
 global.ig = 'https://github.com/nexusNw'
 global.region = 'India, Northeast India, Mizoram, Aizawl'
-global.sc = 'https://github.com/nexusNw/Gojo-Satoru'
-global.myweb = 'https://youtube.com/channel/UCqoUjPvDdb0kjXNYdvPPpHQ'
-global.packname = 'Gojo-Satoru'
-global.author = '🐦Star Boy Nexus'
+global.sc = 'https://www.instagram.com/herbert_suantak2/'
+global.myweb = 'https://youtube.com/c/HBSuantakOfficialChannel'
+global.packname = 'HBWABot'
+global.author = 'Herbert Suantak'
 global.sessionName = 'session'
-global.prefa = ['','!','.','🐦','🐤','🗿']
+global.prefa = ['','!','.','🌚','😂','🤣']
 global.sp = '⭔'
 global.mess = {
     success: 'Done ✓',
-    admin: 'This Feature Is Only For Admin!',
-    botAdmin: 'Bot Must Be Admin First!',
-    owner: 'This Feature Is Only For Owner!',
-    group: 'Feature Used Only For Groups!',
-    private: 'Features Used Only For Private Chat!',
-    bot: 'This Feature Is Only For Bot',
-    wait: 'Wait A minute...',
-    error: 'Error! Maybe Api Key Is Expired🤔!',
-    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
+    admin: 'He features hi Admin te chauh hman thei ani!..!',
+    botAdmin: 'Bot hi admin a dah hmasak angai!',
+    owner: 'He features hi owner chauh hman thei ani!..',
+    group: 'He features hi group a chauh hman thei ani!',
+    private: 'He features hi private a chauh hman thei ani',
+    bot: 'Features hi Bot chauh hman thei ani!..',
+    wait: 'Reilo te min lo nghak lawk rawh...',
+    error: 'Error! API Key hi a a thi tawh😥!',
+    endLimit: 'i daily limet a zo tawh, Darkar 12 hnu a i nei leg chauh ang',
 }
     global.limitawal = {
     premium: "Infinity",
