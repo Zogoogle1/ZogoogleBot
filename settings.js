@@ -19,9 +19,9 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['+91 8416093656']
-global.premium = ['+91 8416093656']
-global.ownernomer = '+91 8416093656'
+global.owner = ['+918416093656']
+global.premium = ['+918416093656']
+global.ownernomer = '+918416093656'
 global.ownername = 'Herbert Suntak'
 global.botname = 'HBWABot'
 global.footer = '©Herbert-inc.'
@@ -29,8 +29,8 @@ global.ig = 'https://github.com/nexusNw'
 global.region = 'India, Northeast India, Mizoram, Aizawl'
 global.sc = 'https://www.instagram.com/herbert_suantak2/'
 global.myweb = 'https://youtube.com/c/HBSuantakOfficialChannel'
-global.packname = 'HBWABot'
-global.author = 'Herbert Suantak'
+global.packname = 'Siam ted by'
+global.author = 'HBWABot'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🌚','😂','🤣']
 global.sp = '⭔'
