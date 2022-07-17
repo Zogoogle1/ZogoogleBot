@@ -3620,11 +3620,11 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
             case 'igpro': case '.instagrampro': case 'instagrampro': {
-                reply(`*Instagram Pro Last Version Download*\nhttps://herbert70.blogspot.com/2022/04/instagram-pro.html  \n\nYouTube : ${myweb}\nDont Forget To Subscribe`)
+                reply(`*Instagram Pro Last Version Download*\nhttps://herbert70.blogspot.com/2022/07/instagram-pro.html  \n\nYouTube : ${myweb}\nDont Forget To Subscribe`)
             }
             break
             case 'ytpro': case '.youtubepro': case 'youtubepro': {
-                reply(`*YouTube Pro Last version Download*\n https://herbert70.blogspot.com/2022/04/youtube-pro.html \n\nYouTube : ${myweb}\nDont Forget To Subscribe`)
+                reply(`*YouTube Pro Last version Download*\n https://herbert70.blogspot.com/2022/07/youtube-pro.html \n\nYouTube : ${myweb}\nDont Forget To Subscribe`)
             }            
             break
 case 'allmenu': {
