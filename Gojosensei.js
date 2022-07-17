@@ -1211,14 +1211,14 @@ GojoMdNx.sendMessage(from, { text: `Rate : ${q}\nAnswer : *${te}%*` }, { quoted:
 
 					break
   case 'handsomecheck':
-				if (!text) return replay(`Tag Someone, Example : ${prefix + command} @Xeon`)
+				if (!text) return replay(`Tag Someone, Example : ${prefix + command} @HBMods`)
 					const gan = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const teng = gan[Math.floor(Math.random() * gan.length)]
 GojoMdNx.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${teng}%*` }, { quoted: m })
 
 					break
 case 'beautifulcheck':
-				if (!text) return replay(`Tag Someone, Example : ${prefix + command} @Xeon`)
+				if (!text) return replay(`Tag Someone, Example : ${prefix + command} @HBMods`)
 					const can = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const tik = can[Math.floor(Math.random() * can.length)]
 GojoMdNx.sendMessage(from, { text: `*${command}*\n\nNama : ${q}\nAnswer : *${tik}%*` }, { quoted: m })
@@ -1234,13 +1234,13 @@ case 'awesomecheck':
                  case 'prettycheck':
                     case 'lovelycheck':
                       case 'uglycheck':
-				if (!text) return replay(`Tag Someone, Example : ${prefix + command} @Xeon`)
+				if (!text) return replay(`Tag Someone, Example : ${prefix + command} @HBMods`)
 					const sangeh = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const sange = sangeh[Math.floor(Math.random() * sangeh.length)]
 GojoMdNx.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${sange}%*` }, { quoted: m })
 					break
 					case 'charactercheck':
-					if (!text) return replay(`Tag Someone, Example : ${prefix + command} @Xeon`)
+					if (!text) return replay(`Tag Someone, Example : ${prefix + command} @HBMods`)
 					const xeony =['Compassionate','Generous','Grumpy','Forgiving','Obedient','Good','Simp','Kind-Hearted','patient','UwU','top, anyway','Helpful']
 					const taky = xeony[Math.floor(Math.random() * xeony.length)]
 					GojoMdNx.sendMessage(from, { text: `Character Check : ${q}\nAnswer : *${taky}*` }, { quoted: m })
@@ -1326,7 +1326,7 @@ case 'wangy':
              reply(awikwok)
               break
 case 'checkdeath':
-             if (!text) return replay(`Use Someone's Name, Example : ${prefix + command} nexus`)
+             if (!text) return replay(`Use Someone's Name, Example : ${prefix + command} HBWABot`)
               predea = await axios.get(`https://api.agify.io/?name=${q}`)
               reply(`Name : ${predea.data.name}\n*Dead At Age :* ${predea.data.age} Year.\n\n_Quick, Quick, Repent Bro, Because No One Knows About Death_`)
               break
@@ -2447,7 +2447,7 @@ break
             }
             break
             case '3dchristmas': case '3ddeepsea': case 'americanflag': case '3dscifi': case '3drainbow': case '3dwaterpipe': case 'halloweenskeleton': case 'sketch': case 'bluecircuit': case 'space': case 'metallic': case 'fiction': case 'greenhorror': case 'transformer': case 'berry': case 'thunder': case 'magma': case '3dcrackedstone': case '3dneonlight': case 'impressiveglitch': case 'naturalleaves': case 'fireworksparkle': case 'matrix': case 'dropwater':  case 'harrypotter': case 'foggywindow': case 'neondevils': case 'christmasholiday': case '3dgradient': case 'blackpink': case 'gluetext': {
-                if (!text) return reply(`Enter Text, Example : ${prefix + command} Xeon`)
+                if (!text) return reply(`Enter Text, Example : ${prefix + command} HBMods`)
                 reply(mess.wait)
                 GojoMdNx.sendMessage(m.chat, { image: { url: api('zenz', '/textpro/' + command, { text: text }, 'apikey') }, caption: `Text Pro ${command}` }, { quoted: m})
 	    }
@@ -2467,7 +2467,7 @@ break
             }
             break
             case 'ramalanjodoh': case 'ramaljodoh': {
-                if (!text) throw `Example : ${prefix + command} Date, 5,5, 2005, Novia, 16, 11, 2004`
+                if (!text) throw `Example : ${prefix + command} Date, 5,5, 2005, Date, 16, 11, 2004`
                 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
                 let anu = await primbon.ramalan_jodoh(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
                 if (anu.status == false) return reply(anu.message)
@@ -2475,7 +2475,7 @@ break
             }
             break
             case 'ramalanjodohbali': case 'ramaljodohbali': {
-                if (!text) throw `Example : ${prefix + command} Date, 5,5, 2005, Novia, 16, 11, 2004`
+                if (!text) throw `Example : ${prefix + command} Date, 5,5, 2005, Date, 16, 11, 2004`
                 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
                 let anu = await primbon.ramalan_jodoh_bali(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
                 if (anu.status == false) return reply(anu.message)
@@ -2483,7 +2483,7 @@ break
             }
             break
             case 'suamiistri': {
-                if (!text) throw `Example : ${prefix + command} Date, 5,5, 2005, Novia, 16, 11, 2004`
+                if (!text) throw `Example : ${prefix + command} Date, 5,5, 2005, Date, 16, 11, 2004`
                 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
                 let anu = await primbon.suami_istri(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
                 if (anu.status == false) return reply(anu.message)
@@ -2491,7 +2491,7 @@ break
             }
             break
             case 'ramalancinta': case 'ramalcinta': {
-                if (!text) throw `Example : ${prefix + command} Date, 5,5, 2005, Novia, 16, 11, 2004`
+                if (!text) throw `Example : ${prefix + command} Date, 5,5, 2005, Date, 16, 11, 2004`
                 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
                 let anu = await primbon.ramalan_cinta(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
                 if (anu.status == false) return reply(anu.message)
@@ -2514,7 +2514,7 @@ break
             }
             break
             case 'kecocokanpasangan': case 'cocokpasangan': case 'pasangan': {
-                if (!text) throw `Example : ${prefix + command} Dika|Novia`
+                if (!text) throw `Example : ${prefix + command} Dika|Date`
                 let [nama1, nama2] = text.split`|`
                 let anu = await primbon.kecocokan_nama_pasangan(nama1, nama2)
                 if (anu.status == false) return reply(anu.message)
@@ -2582,7 +2582,7 @@ break
                 let [nama, gender, tahun] = text.split`,`
                 let anu = await primbon.perhitungan_feng_shui(nama, gender, tahun)
                 if (anu.status == false) return reply(anu.message)
-                GojoMdNx.sendText(m.chat, `🌚 *Name :* ${anu.message.nama}\n🌚 *Born :* ${anu.message.tahun_lahir}\n🌚 *Gender :* ${anu.message.jenis_kelamin}\n🌚 *Kua Number :* ${anu.message.angka_kua}\n🌚 *Group :* ${anu.message.kelompok}\n🌚 *Character :* ${anu.message.karakter}\n🌚 *Good Sector :* ${anu.message.sektor_baik}\n🌚 *Bad Sector :* ${anu.message.sektor_buruk}`, m)
+                GojoMdNx.sendText(m.chat, `🌚 *Name :* ${anu.message.nama}\n🌚 *Born :* ${anu.message.tahun_lahir}\n🌚 *Gender :* ${anu.message.jenis_kelamin}\n🌚 * Number :* ${anu.message.angka_kua}\n🌚 *Group :* ${anu.message.kelompok}\n🌚 *Character :* ${anu.message.karakter}\n🌚 *Good Sector :* ${anu.message.sektor_baik}\n🌚 *Bad Sector :* ${anu.message.sektor_buruk}`, m)
             }
             break
             case 'haribaik': {
@@ -2751,7 +2751,7 @@ break
                     reply(`ID : ${anu.result.gameId}\nUsername : ${anu.result.userName}`)
 		    db.data.users[m.sender].limit -= 1
                 } else if (type.toLowerCase() == 'ig') {
-                    if (!id) return reply(`No Query username, Example : ${prefix + command} ig josephxeon13`)
+                    if (!id) return reply(`No Query username, Example : ${prefix + command} herbert_suantak2`)
                     let { result: anu } = await fetchJson(api('zenz', '/api/stalker/ig', { username: id }, 'apikey'))
                     if (anu.status == false) return reply(anu.result.message)
                     GojoMdNx.sendMedia(m.chat, anu.caption.profile_hd, '', `🌚 Full Name : ${anu.caption.full_name}\n🌚 User Name : ${anu.caption.user_name}\n🌚 ID ${anu.caption.user_id}\n🌚 Following : ${anu.caption.followers}\n🌚 Followers : ${anu.caption.following}\n🌚 Bussines : ${anu.caption.bussines}\n🌚 Professional : ${anu.caption.profesional}\n🌚 Verified : ${anu.caption.verified}\n🌚 Private : ${anu.caption.private}\n🌚 Bio : ${anu.caption.biography}\n🌚 Bio Url : ${anu.caption.bio_url}`, m)
@@ -2995,7 +2995,7 @@ malik
 1 - 1594
 muslim
 1 - 5362`)
-		if (!args[1]) return reply(`Which Hadith??\n\nExample:\n${prefix + command} muslim 1`)
+		if (!args[1]) return reply(`Which Hadith??\n\nExample:\n${prefix + command} Mizo 1`)
 		try {
 		let res = await fetchJson(`hhttps://developer.voicemaker.in/dashboard/${args[0]}`)
 		let { number, arab, id } = res.find(v => v.number == args[1])
@@ -3026,7 +3026,7 @@ ${id}`)
 		if (!args[0]) return reply(`Usage Examples:\n${prefix + command} 1 2\n\nThen The Result Is The Interpretation Of Herbert Sauntak Verse 2`)
 		if (!args[1]) return reply(`Usage Examples:\n${prefix + command} 1 2\n\nThen The Result Is The Interpretation Of Herbert Sauntak Verse 2`)
 		let res = await fetchJson(`https://developer.voicemaker.in/dashboard/${args[0]}&ayat=${args[1]}`)
-		let txt = `「 *Computer*  」
+		let txt = `「 *HBMods*  」
 
 *Short* : ${res.result.data.tafsir.id.short}
 
@@ -3573,8 +3573,8 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 										"rowId": `${prefix}textpromenu`
 										},
 										{
-											"title": "Computer voice Menu",
-										"description": "Displays The List Of computer voices menuFeatures",
+											"title": "HBMods Menu",
+										"description": "Displays The List Of HBMods Features",
 										"rowId": `${prefix}islamicmenu`
 										},
 										{
@@ -3612,18 +3612,29 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
     case 'donasi': case 'donate': case 'sewabot': case 'sewa': {
-                GojoMdNx.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/tVG2FyU.jpeg' }, caption: `*Hi Bro ${m.pushName}*\nDonation section is currently down🥲 , I know you are happy😇😇\n` }, { quoted: m })
+                GojoMdNx.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/tVG2FyU.jpeg' }, caption: `*Hi Bro ${m.pushName}*\nDonation section is currently down, I know you are happy😇😇\n` }, { quoted: m })
             }
             break
-            case 'gb': case 'gbwhatsapp': {
-                reply(`*GBWhtsApp Last version Download*\n https://herbert70.blogspot.com/2022/04/download-gbwhatsapp-last-version-update.html \n\nYouTube : ${myweb}\nDont Forget To Subscribe`)
+            case 'gb': case '.gbwhatsapp': case 'gbwhatsapp': {
+                reply(`*GBWhatsApp Last version Download*\n https://herbert70.blogspot.com/2022/04/download-gbwhatsapp-last-version-update.html \n\nYouTube : ${myweb}\nDont Forget To Subscribe`)
             }
+            break
+            case 'igpro': case '.instagrampro': case 'instagrampro': {
+                reply(`*Instagram Pro Last Version Download*\nhttps://herbert70.blogspot.com/2022/04/instagram-pro.html  \n\nYouTube : ${myweb}\nDont Forget To Subscribe`)
+            }
+            break
+            case 'ytpro': case '.youtubepro': case 'youtubepro': {
+                reply(`*YouTube Pro Last version Download*\n https://herbert70.blogspot.com/2022/04/youtube-pro.html \n\nYouTube : ${myweb}\nDont Forget To Subscribe`)
+            }            
             break
 case 'allmenu': {
   	anu = `
 ┏━「 *${botname}* 」━━⭓ 
 ┃╔══☯︎「 MAIN 」☯︎
 ┃╠🔥${prefix}alive
+┃╠🔥${prefix}gbwhtsapp
+┃╠🔥${prefix}youtubepro
+┃╠🔥${prefix}instagrampro 
 ┃╠🔥${prefix}speedtest
 ┃╠🔥${prefix}ping
 ┃╠🔥${prefix}owner
@@ -3813,8 +3824,10 @@ case 'allmenu': {
 ┃╠🔥${prefix}robot [reply aud]
 ┃╠🔥${prefix}slow [reply aud]
 ┃╠🔥${prefix}squirrel [reply aud]
-┃╠══✪「 computer voices menu」☯︎
-┃╠🔥${prefix}computervoice
+┃╠══✪「 HBMods menu」☯︎
+┃╠🔥${prefix}instagrampro
+┃╠🔥${prefix}youtubepro
+┃╠🔥${prefix}gbwhtsapp
 ┃╠══✪「 HOROSCOPE 」☯︎
 ┃╠🔥${prefix}nomorhoki (DOB)
 ┃╠🔥${prefix}artimimpi (DOB)
@@ -3878,6 +3891,9 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━「 ${botname} 」━━⭓ 
 ┃╔═✪「 MAIN 」
 ┃╠🔥${prefix}alive
+┃╠🔥${prefix}gbwhtsapp
+┃╠🔥${prefix}youtubepro
+┃╠🔥${prefix}instagrampro
 ┃╠🔥${prefix}speedtest
 ┃╠🔥${prefix}ping
 ┃╠🔥${prefix}owner
@@ -3890,7 +3906,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🔥${prefix}donate
 ┃╠🔥${prefix}report [bug]
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube 📍","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hei+Bot+siamtu'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
 break
 
 case 'grupmenu': case 'groupmenu':
@@ -3919,7 +3935,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🔥${prefix}checkvote
 ┃╠🔥${prefix}delvote
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hei+Bot+siamtu'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
 break
 
 case 'rpgmenu':
@@ -3937,7 +3953,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🔥${prefix}buy [option]
 ┃╠🔥${prefix}sell [option]
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hei+Bot+siamtu'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
 break
 
 case 'funmenu':
@@ -3990,7 +4006,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🔥${prefix}math [mode]
 ┃╠🔥${prefix}suitpvp [tag]
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hei+Bot+siamtu'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
 break
 
 case 'ownermenu':
@@ -4019,7 +4035,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🔥${prefix}checkvote
 ┃╠🔥${prefix}delvote
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hei+Bot+siamtu'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
 break
 case 'downloadmenu':
 var unicorn = await getBuffer(picak+'Downloader Menu')
@@ -4034,7 +4050,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🔥${prefix}joox [title]
 ┃╠🔥${prefix}soundcloud [url]
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hei+Bot+siamtu'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
 break
 case 'searchmenu':
 var unicorn = await getBuffer(picak+'Search Menu')
@@ -4049,11 +4065,10 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🔥${prefix}pinterest [title]
 ┃╠🔥${prefix}wallpaper [title]
 ┃╠🔥${prefix}wikimedia [title]
-┃╠🔥${prefix}ytsearch [title]
 ┃╠🔥${prefix}ringtone [title]
 ┃╠🔥${prefix}webtoon [title]
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hei+Bot+siamtu'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
 break
 case 'randommenu':
 var unicorn = await getBuffer(picak+'Random Menu')
@@ -4064,7 +4079,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🔥${prefix}animequote (DOB)
 ┃╠🔥${prefix}couplepp
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hei+Bot+siamtu'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
 break
 case 'randomanimemenu':
 var unicorn = await getBuffer(picak+'Random Anime Menu')
@@ -4099,7 +4114,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🔥${prefix}dance
 ┃╠🔥${prefix}cringe
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hei+Bot+siamtu'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
 break
 case 'textpromenu':
 var unicorn = await getBuffer(picak+'Text Pro Menu')
@@ -4138,7 +4153,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🔥${prefix}blackpink [txt]
 ┃╠🔥${prefix}gluetext [txt]
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hei+Bot+siamtu'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
 break
 case 'convertmenu':
 var unicorn = await getBuffer(picak+'Converter Menu')
@@ -4157,7 +4172,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🔥${prefix}ebinary [reply txt]
 ┃╠🔥${prefix}dbinary [reply txt]
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hei+Bot+siamtu'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
 break
 case 'databasemenu':
 var unicorn = await getBuffer(picak+'Database Menu')
@@ -4173,7 +4188,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🔥${prefix}getmsg
 ┃╠🔥${prefix}delmsg
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hei+Bot+siamtu'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
 break
 case 'databasemenu':
 var unicorn = await getBuffer(picak+'Database Menu')
@@ -4185,16 +4200,18 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🔥${prefix}next
 ┃╠🔥${prefix}leave
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hei+Bot+siamtu'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
 break
 case 'islamicmenu':
-var unicorn = await getBuffer(picak+'computer voices menuMenu')
+var unicorn = await getBuffer(picak+'HBMods Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━「 ${botname} 」━━⭓ 
-┃╔══✪「 computer voices menu」	        
-┃╠🔥${prefix}computervoice
+┃╔══✪「 HBMods menu」	        
+┃╠🔥${prefix}youtubepro
+┃╠🔥${prefix}instagrampro
+┃╠🔥${prefix}gbwhtsapp
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hei+Bot+siamtu'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
 break
 case 'voicechangermenu':
 var unicorn = await getBuffer(picak+'Voice Changer Menu')
@@ -4213,7 +4230,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🔥${prefix}slow [reply aud]
 ┃╠🔥${prefix}squirrel [reply aud]
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hei+Bot+siamtu'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
 break
 case 'horoscopemenu':
 var unicorn = await getBuffer(picak+'Horoscope Menu')
@@ -4251,7 +4268,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🔥${prefix}zodiak (DOB)
 ┃╠🔥${prefix}shio (DOB)
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hei+Bot+siamtu'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
 break
 case 'thanksto': case 'tqto': case 'tqtt':
 var unicorn = await getBuffer(picak+'Developer')
@@ -4259,7 +4276,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 Thanks to Me (HBWABOT)
 Alien-Alfa (For helping me to deploy qr in replit and answered my every doubts regard this project)
 DGXeon ( 45% Credits goes to him ,in this script)
-And Again Me (HBMods) 🌚 Who Helped Assemble This Sexy Script !!!`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hei+Bot+siamtu'}}] )
+And Again Me (HBMods) 🌚 Who Helped Assemble This Sexy Script !!!`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
 break
             default:
                 if (budy.startsWith('=>')) {
