@@ -2174,7 +2174,7 @@ case 'webtonsearch': case 'webtoon':
                     reply(mess.error)
                 })
             break
-case 'candy': case 'christmas': case '3dchristmas': case 'sparklechristmas':
+case 'said': case 'christmas': case '3dchristmas': case 'sparklechristmas':
 case 'deepsea': case 'scifi': case 'rainbow': case 'waterpipe': case 'spooky': 
 case 'pencil': case 'circuit': case 'discovery': case 'metalic': case 'fiction': case 'demon': 
 case 'transformer': case 'berry': case 'thunder': case 'magma': case '3dstone': 
@@ -2187,7 +2187,7 @@ case 'lava': case 'rock': case 'bloodglas': case 'hallowen': case 'darkgold': ca
               if (!q) return reply(`Example : ${prefix + command} ${global.ownername}`) 
           
              let link
-             if (/candy/.test(command)) link = 'https://textpro.me/create-christmas-candy-cane-text-effect-1056.html'
+             if (/said/.test(command)) link = 'https://www.naturalreaders.com/online/'
              if (/christmas/.test(command)) link = 'https://textpro.me/christmas-tree-text-effect-online-free-1057.html'
              if (/3dchristmas/.test(command)) link = 'https://textpro.me/3d-christmas-text-effect-by-name-1055.html'
              if (/sparklechristmas/.test(command)) link = 'https://textpro.me/sparkles-merry-christmas-text-effect-1054.html'
