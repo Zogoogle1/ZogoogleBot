@@ -19,32 +19,32 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['+918416093656']
+global.owner = ['+918416093655']
 global.premium = ['+918416093656']
 global.ownernomer = '+918416093656'
-global.ownername = 'Herbert Suntak'
-global.botname = 'HBWABot'
-global.footer = '©Herbert-inc.'
-global.ig = 'https://github.com/nexusNw'
+global.ownername = 'Lalhruaizela'
+global.botname = 'Ṭhamtam'
+global.footer = '©Herbert-Inc.'
+global.ig = 'https://www.instagram.com/herbert_suantak2'
 global.region = 'India, Northeast India, Mizoram, Aizawl'
-global.sc = 'https://www.instagram.com/herbert_suantak2/'
+global.sc = 'https://www.instagram.com/herbert_suantak2'
 global.myweb = 'https://youtube.com/c/HBSuantakOfficialChannel'
-global.packname = 'Siam ted by'
-global.author = 'HBWABot'
+global.packname = 'Siamted by'
+global.author = 'ṬhamBot'
 global.sessionName = 'session'
-global.prefa = ['','!','.','🌚','😂','🤣']
+global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    success: 'Done ✓',
-    admin: 'He features hi Admin te chauh hman thei ani!..!',
-    botAdmin: 'Bot hi admin a dah hmasak angai!',
-    owner: 'He features hi owner chauh hman thei ani!..',
-    group: 'He features hi group a chauh hman thei ani!',
-    private: 'He features hi private a chauh hman thei ani',
-    bot: 'Features hi Bot chauh hman thei ani!..',
-    wait: 'Reilo te min lo nghak lawk rawh...',
-    error: 'Error! API Key hi a a thi tawh😥!',
-    endLimit: 'I daily limit a zo tawh, Darkar 12 hnu a i nei leg chauh ang',
+    success: 'Done✓',
+    admin: 'This Feature Is Only For Admin!',
+    botAdmin: 'Bot Must Be Admin First!',
+    owner: 'This Feature Is Only For Owner!',
+    group: 'Feature Used Only For Groups!',
+    private: 'Features Used Only For Private Chat!',
+    bot: 'This Feature Is Only For Bot',
+    wait: 'Loading...',
+    error: 'Error! Maybe Api Key Is Expired🤔!',
+    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
 }
     global.limitawal = {
     premium: "Infinity",
@@ -59,7 +59,7 @@ global.mess = {
    umpanawal: 5,
    potionawal: 1
 }
-global.thumb = fs.readFileSync('./GojoMedia/gojo.jpg')
+global.thumb = 'https://i.imgur.com/tVG2FyU.jpeg'
 global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.flarun = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=runner-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
