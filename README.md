@@ -6,19 +6,19 @@
 
 > <a href="https://youtube.com/c/HBSuantakOfficialChannel"><img src="https://img.shields.io/badge/Tutorial-Video-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtube.com/c/HBSuantakOfficialChannel" /><br>
 
-> [Automated Multi Device whatsapp bot created](https://github.com/herbert80/herbert) by [Herbert the best](https://www.instagram.com/herbert_suantak2)
+> [Automated Multi Device whatsapp bot created](https://github.com/HBMods1/Herbert) by [Herbert the best](https://www.instagram.com/herbert_suantak2)
 
 > Dont forget to give a star bro.🥲 IF Heroku Deploy seems Error, Fork This Repo And Try Deploy Again
 
-> If The Api Of This Bot Run Empty You Can Change it To Your Own Api By Changing [Here](https://github.com/herbert80/herbert/blob/herbert70/settings.js#L18) And Register [here](https://zenzapis.xyz/) to get apikey
+> If The Api Of This Bot Run Empty You Can Change it To Your Own Api By Changing [Here](https://github.com/HBMods1/Herbert/blob/herbert40/settings.js#L18) And Register [here](https://zenzapis.xyz/) to get apikey
 
 
 </br>
 
-<a href="https://github.com/nexusNw"><img title="Author" src="https://img.shields.io/badge/Author-nexusNw-blue.svg?color=54aeff&style=for-the-badge&logo=github" /></a>  
-<a href="https://github.com/nexusNw/Gojo-Satoru"><img title="Stars" src="https://img.shields.io/github/stars/nexusNw/Gojo-Satoru?color=54aeff&style=flat-square" /></a>
-<a href="https://github.com/nexusNw/Gojo-Satoru/network/members"><img title="Forks" src="https://img.shields.io/github/forks/nexusNw/Gojo-Satoru?color=54aeff&style=flat-square" /></a>
-<a href="https://github.com/nexusNw/Gojo-Satoru/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/nexusNw/Gojo-Satoru?label=watchers&color=54aeff&style=flat-square" /></a> <br>
+<a href="https://github.com/HBMods1"><img title="Author" src="https://img.shields.io/badge/Author-nexusNw-blue.svg?color=54aeff&style=for-the-badge&logo=github" /></a>  
+<a href="https://github.com/HBMods1/Herbert"><img title="Stars" src="https://img.shields.io/github/stars/HBMods1/Herbert?color=54aeff&style=flat-square" /></a>
+<a href="https://github.com/HBMods1/Herbert/network/members"><img title="Forks" src="https://img.shields.io/github/forks/HBMods1/Herbert?color=54aeff&style=flat-square" /></a>
+<a href="https://github.com/HBMods1/Herbert/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/HBMods1/Herbert?label=watchers&color=54aeff&style=flat-square" /></a> <br>
 
 ---
 
@@ -38,8 +38,8 @@ Add FFmpeg to PATH environment variable
 <!-- Start via Heroku -->
 <b><details><summary>Start via Heroku</summary></b>
 
-* Scan QR In Your Whatsapp From [Here](https://replit.com/@nexusNw/M-D-SCANNER-V2?v=1?outputonly=1&lite=1#index.js)
-* Fork This Repo By Clicking [Here](https://github.com/herbert80/herbert/fork)
+* Scan QR In Your Whatsapp From [Here](https://replit.com/@Herbert70/HBWABot?v=1?outputonly=1&lite=1#index.js)
+* Fork This Repo By Clicking [Here](https://github.com/HBMods/Herbert/fork)
 * then Deploy The Bot From [Here](https://heroku.com/deploy)
 * Wait 5-10 Min To Deploy 
 * After Deploying On The Worker And Check The Logs
@@ -48,23 +48,7 @@ Add FFmpeg to PATH environment variable
 
 
 
-<!-- Installation via Termux -->
-<b><details><summary>Installation on Termux</summary></b>
-```bash
-> apt update
-> apt upgrade
-> pkg update && pkg upgrade
-> pkg install bash
-> pkg install libwebp
-> pkg install git -y
-> pkg install nodejs -y 
-> pkg install ffmpeg -y 
-> pkg install wget
-> pkg install imagemagick -y
-> git clone https://github.com/HBMods1/Herbert
-> cd Gojo-Satoru
-> npm install
-```
+
 </details>
 
 <!-- Edit -->
@@ -99,7 +83,6 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 |   Convert     |       ✅     |
 |   Database     |       ✅     |
 |   Owner     |       ✅    |
-|   Islami     |       ✅     |
 |   Downloader     |       ✅     |
 |   Webzone     |       ✅[      |
 |   Searching     |       ✅      |
@@ -123,7 +106,7 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 
 ## ```Connect With Me```
 <p align="center">
-<a href="https://wa.me/918416093656"><img src="https://img.shields.io/badge/Contact Nexus-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://wa.me/918416093656"><img src="https://img.shields.io/badge/Contact HBMods-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <a href="https://youtube.com/c/HBSuantakOfficialChannel"><img src="https://img.shields.io/badge/Subscribe HBMods-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtube.com/c/HBSuantakOfficialChannel" /><br>
 </p>
 
@@ -137,6 +120,6 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 * [`Alien-Alfa`](https://github.com/Alien-Alfa)
 * [`DGXeon`](https://github.com/DGXeon)
 * [`AflahXrd`](https://github.com/nexusNw)
+* [`HBMods`](https://github.com/HBMods1)
 
-
-License: [MIT](https://github.com/Gojo-Satoru/LICENSE)
+License: [MIT](https://github.com/HBMods1/LICENSE)
