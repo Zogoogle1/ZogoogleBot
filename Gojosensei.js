@@ -4224,6 +4224,14 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╚═════════════✪
 ┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
 break
+case 'followme' case 'subscribe' case 'follow':
+var unicorn = await getBuffer(picak+'HBMods Menu')
+await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
+┏━「 ${botname} 」━━⭓ 
+*Follow Me on Instagram & Youtube*
+*Please click below blue Button*
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
+break
 case 'voicechangermenu':
 var unicorn = await getBuffer(picak+'Voice Changer Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
