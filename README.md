@@ -61,7 +61,7 @@ Add FFmpeg to PATH environment variable
 > pkg install ffmpeg -y 
 > pkg install wget
 > pkg install imagemagick -y
-> git clone https://github.com/nexusNw/Gojo-Satoru
+> git clone https://github.com/HBMods1/Herbert
 > cd Gojo-Satoru
 > npm install
 ```
@@ -74,7 +74,7 @@ global.APIKeys = {
 	'https://zenzapis.xyz': 'YOURAPIKEY',
 }
   
-global.owner = ["9181XXXXXX"]
+global.owner = ["9184XXXXXX"]
 global.ownername = ["YourName"]
 ```
 </details>
