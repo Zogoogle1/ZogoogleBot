@@ -19,7 +19,7 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['+918416093655']
+global.owner = ['+918416093656']
 global.premium = ['+918416093656']
 global.ownernomer = '+918416093656'
 global.ownername = 'Herbert Suantak'
