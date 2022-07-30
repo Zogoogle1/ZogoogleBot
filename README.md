@@ -38,7 +38,7 @@ Add FFmpeg to PATH environment variable
 <!-- Start via Heroku -->
 <b><details><summary>Start via Heroku</summary></b>
 
-* Scan QR In Your Whatsapp From [Here](https://replit.com/@Herbert70/HBWABot?v=1?outputonly=1&lite=1#index.js)
+* Scan QR In Your Whatsapp From [Here](https://replit.com/@HBMods/Multidevice-scanner?v=1?outputonly=1&lite=1#index.js)
 * Fork This Repo By Clicking [Here](https://github.com/HBMods/Herbert/fork)
 * then Deploy The Bot From [Here](https://heroku.com/deploy)
 * Wait 5-10 Min To Deploy 
