@@ -498,13 +498,13 @@ Typed *surrender* to surrender and admited defeat`
 
 Please Choose A Suit In The Respective Chat"
 Click https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] })
-	    if (!roof.pilih) GojoMdNx.sendText(roof.p, `Please Select \n\Rock🗿\nPaper📄\nScissors✂️`, m)
-	    if (!roof.pilih2) GojoMdNx.sendText(roof.p2, `Please Select \n\nRock🗿\nPaper📄\nScissors✂️`, m)
+	    if (!roof.pilih) GojoMdNx.sendText(roof.p, `Select rawh \n\nRock🗿\nPaper📄\nScissors✂️`, m)
+	    if (!roof.pilih2) GojoMdNx.sendText(roof.p2, `Select rawh \n\nRock🗿\nPaper📄\nScissors✂️`, m)
 	    roof.waktu_milih = setTimeout(() => {
 	    if (!roof.pilih && !roof.pilih2) GojoMdNx.sendText(m.chat, `Both Players Don't Want To Play,\nSuit Canceled`)
 	    else if (!roof.pilih || !roof.pilih2) {
 	    win = !roof.pilih ? roof.p2 : roof.p
-	    GojoMdNx.sendTextWithMentions(m.chat, `@${(roof.pilih ? roof.p2 : roof.p).split`@`[0]} Didn't Choose Suit, Game Over!`, m)
+	    GojoMdNx.sendTextWithMentions(m.chat, `@${(roof.pilih ? roof.p2 : roof.p).split`@`[0]} Suit in Choose loh avangin, Game Over!`, m)
 	    }
 	    delete this.suit[roof.id]
 	    return !0
@@ -519,14 +519,14 @@ Click https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] 
 	    if (jwb && reg.test(m.text) && !roof.pilih && !m.isGroup) {
 	    roof.pilih = reg.exec(m.text.toLowerCase())[0]
 	    roof.text = m.text
-	    reply(`You Have Chosen ${m.text} ${!roof.pilih2 ? `\n\nWaiting For The Opponent To Choose` : ''}`)
-	    if (!roof.pilih2) GojoMdNx.sendText(roof.p2, '_The Opponent Has Chosen_\nNow It Is Your Turn', 0)
+	    reply(`I thang tawh ${m.text} ${!roof.pilih2 ? `\n\nWaiting For The Opponent To Choose` : ''}`)
+	    if (!roof.pilih2) GojoMdNx.sendText(roof.p2, '_Lehlamin a thlang tawh a_\nI thlan ve hun', 0)
 	    }
 	    if (jwb2 && reg.test(m.text) && !roof.pilih2 && !m.isGroup) {
 	    roof.pilih2 = reg.exec(m.text.toLowerCase())[0]
 	    roof.text2 = m.text
-	    reply(`You Have Chosen ${m.text} ${!roof.pilih ? `\n\nWaiting For The Opponent To Choose` : ''}`)
-	    if (!roof.pilih) GojoMdNx.sendText(roof.p, '_The Opponent Has Chosen_\nNow It Is Your Turn', 0)
+	    reply(`I thlang tawh ${m.text} ${!roof.pilih ? `\n\nWaiting For The Opponent To Choose` : ''}`)
+	    if (!roof.pilih) GojoMdNx.sendText(roof.p, '_Lehlamin a thlang tawh a_\nI thlan ve hun', 0)
 	    }
 	    let stage = roof.pilih
 	    let stage2 = roof.pilih2
@@ -587,12 +587,12 @@ if (q.includes('--help')) return reply(examkosong)
      teksehmazeh += `*⏺️Your Limit* : ${getLimit(m.sender)}\n`
      teksehmazeh += `*🧪Your Potion* : ${getPotion(m.sender)}\n\n`
      teksehmazeh += `_[ 🐺HUNT RESULT🐺 ]_\n`
-     teksehmazeh += `*🐟Fish* : ${getIkan(m.sender)}\n`
-     teksehmazeh += `*🐔Chicken* : ${getAyam(m.sender)}\n`
-     teksehmazeh += `*🐇Rabbit* : ${getKelinci(m.sender)}\n`
-     teksehmazeh += `*🐑Sheep* : ${getDomba(m.sender)}\n`
-     teksehmazeh += `*🐄Cow* : ${getSapi(m.sender)}\n`
-     teksehmazeh += `*🐘Elephant* : ${getGajah(m.sender)}\n\n`
+     teksehmazeh += `*🐟Sangha* : ${getIkan(m.sender)}\n`
+     teksehmazeh += `*🐔Ar* : ${getAyam(m.sender)}\n`
+     teksehmazeh += `*🐇Sazupui* : ${getKelinci(m.sender)}\n`
+     teksehmazeh += `*🐑Beram* : ${getDomba(m.sender)}\n`
+     teksehmazeh += `*🐄Bawng* : ${getSapi(m.sender)}\n`
+     teksehmazeh += `*🐘Sai* : ${getGajah(m.sender)}\n\n`
      teksehmazeh += `_*${pushname}*_`
      await GojoMdNx.send5ButImg(from, `` + '' + teksehmazeh, `© ${footer}`, GojoMdNx, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}}])
   }
@@ -611,12 +611,12 @@ if (q.includes('--help')) return reply(examkosong)
    let txt = `「 *LEADERBOARD* 」\n\n`
      for (let i of _buruan){
      txt += `➸ *ID :* ${i.id}\n`
-     txt += `*🐟Fish* : ${i.ikan}\n`
-     txt += `*🐔Chicken* : ${i.ayam}\n`
-     txt += `*🐇Rabbit* : ${i.kelinci}\n`
-     txt += `*🐑Sheep* : ${i.domba}\n`
-     txt += `*🐄Cow* : ${i.sapi}\n`
-     txt += `*🐘Elephant* : ${i.gajah}\n\n`
+     txt += `*🐟Sangha* : ${i.ikan}\n`
+     txt += `*🐔Ar* : ${i.ayam}\n`
+     txt += `*🐇Sazupui* : ${i.kelinci}\n`
+     txt += `*🐑Beram* : ${i.domba}\n`
+     txt += `*🐄Bawng* : ${i.sapi}\n`
+     txt += `*🐘Sai* : ${i.gajah}\n\n`
      }
     reply(txt)       
   }
@@ -665,11 +665,11 @@ if (q.includes('--help')) return reply(examkosong)
  if (!isInventoriBuruan){ addInventoriBuruan(m.sender) } 
  if (!isInventoryMonay){ addInventoriMonay(m.sender) }
  if (!isInventory){ addInventori(m.sender) }
- if (!q) return reply(`What Do You Want To Buy?\n\n1.potion\n2.baitfood\n3.limit\n\nExample: ${prefix + command} baitfood`)
+ if (!q) return reply(`Enge lei i tum?\n\n1.potion\n2.baitfood\n3.limit\n\nEntir nan: ${prefix + command} baitfood`)
  var anu = args[1]
   if (args[0] === 'potion'){
   let noh = 100000 * anu
- if (!args[1]) return reply(`Example : ${prefix + command} potion 2\n 1 Potion = 100000 Money`)
+ if (!args[1]) return reply(`Entir nan: ${prefix + command} potion 2\n 1 Potion = 100000 Money`)
  if (isMonay < noh) return reply('Your Remaining Money Is Not Sufficient For This Purchase')
  kurangMonay(m.sender, noh)
  var apalu = anu * 1
@@ -1774,8 +1774,8 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
-                                    id: 'owner'
+                                    displayText: 'HBMods',
+                                    id: 'hbmodsmenu'
                                 }
                             }]
                       let txt = `「 HBWABot HERE🎉 」\n\n${text}`
@@ -1808,8 +1808,8 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
-                                    id: 'owner'
+                                    displayText: 'HBMods',
+                                    id: 'hbmodsmenu'
                                 }
                             }]
                       let txt = `「 HBWABOT 🔥 HERE 🎉」\n\n${text}`
@@ -2175,19 +2175,21 @@ case 'webtonsearch': case 'webtoon':
                 })
             break
 case 'candy': case 'christmas': case '3dchristmas': case 'sparklechristmas':
-case 'deepsea': case 'scifi': case 'rainbow': case 'waterpipe': case 'spooky': 
+case 'deepsea': case 'scifi': case 'rainbow2': case 'waterpipe': case 'spooky': 
 case 'pencil': case 'circuit': case 'discovery': case 'metalic': case 'fiction': case 'demon': 
-case 'transformer': case 'berry': case 'thunder': case 'magma': case '3dstone': 
+case 'transformer': case 'berry': case 'thunder': case '.': case '3dstone2': 
 case 'neonlight': case 'glitch': case 'harrypotter': case 'brokenglass': case 'papercut': 
 case 'watercolor': case 'multicolor': case 'neondevil': case 'underwater': case 'graffitibike':
  case 'snow': case 'cloud': case 'honey': case 'ice': case 'fruitjuice': case 'biscuit': case 'wood': 
 case 'chocolate': case 'strawberry': case 'matrix': case 'blood': case 'dropwater': case 'toxic': 
-case 'lava': case 'rock': case 'bloodglas': case 'hallowen': case 'darkgold': case 'joker': case 'wicker':
- case 'firework': case 'skeleton': case 'blackpink': case 'sand': case 'glue': case '1917': case 'leaves': {
-              if (!q) return reply(`Example : ${prefix + command} ${global.ownername}`) 
-          
+case 'lava': case 'rock': case 'bloodglas': case 'halloween': case 'darkgold': case 'joker': case 'wicker':
+ case 'firework': case 'skeleton': case 'blackpink': case 'sand': case 'glue': case '1917': case 'leaves': case 'demon': {
+             if (!q) return reply(`Example : ${prefix + command} ${global.ownername}`) 
+                if (isBan) return reply(mess.ban)	 			
+if (isBanChat) return reply(mess.banChat)
+             reply(mess.wait)
              let link
-             if (/candy/.test(command)) link = 'https://www.naturalreaders.com/online/'
+             if (/candy/.test(command)) link = 'https://textpro.me/create-christmas-candy-cane-text-effect-1056.html'
              if (/christmas/.test(command)) link = 'https://textpro.me/christmas-tree-text-effect-online-free-1057.html'
              if (/3dchristmas/.test(command)) link = 'https://textpro.me/3d-christmas-text-effect-by-name-1055.html'
              if (/sparklechristmas/.test(command)) link = 'https://textpro.me/sparkles-merry-christmas-text-effect-1054.html'
@@ -2206,7 +2208,7 @@ case 'lava': case 'rock': case 'bloodglas': case 'hallowen': case 'darkgold': ca
              if (/berry/.test(command)) link = 'https://textpro.me/create-berry-text-effect-online-free-1033.html'
              if (/thunder/.test(command)) link = 'https://textpro.me/online-thunder-text-effect-generator-1031.html'
              if (/magma/.test(command)) link = 'https://textpro.me/create-a-magma-hot-text-effect-online-1030.html'
-             if (/3dstone/.test(command)) link = 'https://textpro.me/3d-stone-cracked-cool-text-effect-1029.html'
+             if (/3dstone2/.test(command)) link = 'https://textpro.me/create-a-3d-stone-text-effect-online-for-free-1073.html'
              if (/neonlight/.test(command)) link = 'https://textpro.me/create-3d-neon-light-text-effect-online-1028.html'
              if (/glitch/.test(command)) link = 'https://textpro.me/create-impressive-glitch-text-effects-online-1027.html'
              if (/harrypotter/.test(command)) link = 'https://textpro.me/create-harry-potter-text-effect-online-1025.html'
@@ -2233,7 +2235,7 @@ case 'lava': case 'rock': case 'bloodglas': case 'hallowen': case 'darkgold': ca
              if (/lava/.test(command)) link = 'https://textpro.me/lava-text-effect-online-914.html'
              if (/rock/.test(command)) link = 'https://textpro.me/rock-text-effect-online-915.html'
              if (/bloodglas/.test(command)) link = 'https://textpro.me/blood-text-on-the-frosted-glass-941.html'
-             if (/hallowen/.test(command)) link = 'https://textpro.me/halloween-fire-text-effect-940.html'
+             if (/halloween/.test(command)) link = 'https://textpro.me/halloween-fire-text-effect-940.html'
              if (/darkgold/.test(command)) link = 'https://textpro.me/metal-dark-gold-text-effect-online-939.html'
              if (/joker/.test(command)) link = 'https://textpro.me/create-logo-joker-online-934.html'
              if (/wicker/.test(command)) link = 'https://textpro.me/wicker-text-effect-online-932.html'
@@ -2243,9 +2245,9 @@ case 'lava': case 'rock': case 'bloodglas': case 'hallowen': case 'darkgold': ca
              if (/sand/.test(command)) link = 'https://textpro.me/write-in-sand-summer-beach-free-online-991.html'
              if (/glue/.test(command)) link = 'https://textpro.me/create-3d-glue-text-effect-with-realistic-style-986.html'
              if (/1917/.test(command)) link = 'https://textpro.me/1917-style-text-effect-online-980.html'
-                if (/leaves/.test(command)) link = 'https://textpro.me/natural-leaves-text-effect-931.html'
+                if (/leaves/.test(command)) link = 'https://textpro.me/natural-leaves-text-effect-931.html'           
              let anu = await maker.textpro(link, q)
-                GojoMdNx.sendMessage(m.chat, { image: { url: anu }, caption: `Made by ${global.botname},For i tan ` }, { quoted: m })
+                XeonBotInc.sendMessage(m.chat, { image: { url: anu }, caption: `Made by ${global.botname}` }, { quoted: m })
              }
              break
             case 'drakorxxx':
@@ -3379,8 +3381,8 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             jpegThumbnail: fs.readFileSync('./GojoMedia/gojo.jpg')},
                             hydratedFooterText: `┌─❖
 │「 Hi 👋 」
-└┬
-┌┤「 ${pushname} 」
+└┬❖ 「 ${pushname} 」
+┌┤✑  Hi i Tha maw?😄
 │└───────────────┈ ⳹
 │ 「 BOT INFO 」
 │✙ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
@@ -3416,8 +3418,8 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
-                                    id: `${prefix}owner`
+                                    displayText: 'HBMods',
+                                    id: `hbmodsmenu`
                                 }
                             }]
                         }
@@ -3476,8 +3478,8 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: 'Owner🌚',
-                                    id: `${prefix}owner`
+                                    displayText: 'HBMods',
+                                    id: `hbmodsmenu`
                                 }
                             }]
                         }
@@ -3575,7 +3577,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 										{
 											"title": "HBMods Menu",
 										"description": "Displays The List Of HBMods Features",
-										"rowId": `${prefix}hbmodsmenu`
+										"rowId": `hbmodsmenu`
 										},
 										{
 											"title": "Horoscope Menu",
@@ -3876,8 +3878,8 @@ case 'allmenu': {
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
-                                    id: `${prefix}owner`
+                                    displayText: 'HBMods',
+                                    id: `hbmodsmenu`
                                 }
                             }]
                         }
@@ -3907,7 +3909,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🔥${prefix}donate
 ┃╠🔥${prefix}report [bug]
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}}, urlButton": {"displayText": "Owner","url": "https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu"}}, {"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}}] )
 break
 
 case 'grupmenu': case 'groupmenu':
@@ -3936,7 +3938,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🔥${prefix}checkvote
 ┃╠🔥${prefix}delvote
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}}, urlButton": {"displayText": "Owner","url": "https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu"}}, {"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}}] )
 break
 
 case 'rpgmenu':
@@ -3954,7 +3956,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🔥${prefix}buy [option]
 ┃╠🔥${prefix}sell [option]
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}}, urlButton": {"displayText": "Owner","url": "https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu"}}, {"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}}] )
 break
 
 case 'funmenu':
@@ -4007,7 +4009,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🔥${prefix}math [mode]
 ┃╠🔥${prefix}suitpvp [tag]
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}}, urlButton": {"displayText": "Owner","url": "https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu"}}, {"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}}] )
 break
 
 case 'ownermenu':
@@ -4036,7 +4038,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🔥${prefix}checkvote
 ┃╠🔥${prefix}delvote
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}}, urlButton": {"displayText": "Owner","url": "https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu"}}, {"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}}] )
 break
 case 'downloadmenu':
 var unicorn = await getBuffer(picak+'Downloader Menu')
@@ -4051,7 +4053,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🔥${prefix}joox [title]
 ┃╠🔥${prefix}soundcloud [url]
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}}, urlButton": {"displayText": "Owner","url": "https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu"}}, {"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}}] )
 break
 case 'searchmenu':
 var unicorn = await getBuffer(picak+'Search Menu')
@@ -4069,7 +4071,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🔥${prefix}ringtone [title]
 ┃╠🔥${prefix}webtoon [title]
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}}, urlButton": {"displayText": "Owner","url": "https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu"}}, {"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}}] )
 break
 case 'randommenu':
 var unicorn = await getBuffer(picak+'Random Menu')
@@ -4080,7 +4082,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🔥${prefix}animequote (DOB)
 ┃╠🔥${prefix}couplepp
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}}, urlButton": {"displayText": "Owner","url": "https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu"}}, {"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}}] )
 break
 case 'randomanimemenu':
 var unicorn = await getBuffer(picak+'Random Anime Menu')
@@ -4115,46 +4117,118 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🔥${prefix}dance
 ┃╠🔥${prefix}cringe
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}}, urlButton": {"displayText": "Owner","url": "https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu"}}, {"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}}] )
 break
 case 'textpromenu':
 var unicorn = await getBuffer(picak+'Text Pro Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━「 ${botname} 」━━⭓ 
 ┃╔═✪「 TEXT PRO 」	        
-┃╠🔥${prefix}3dchristmas [txt]
-┃╠🔥${prefix}3ddeepsea [txt]
-┃╠🔥${prefix}americanflag [txt]
-┃╠🔥${prefix}3dscifi [txt]
-┃╠🔥${prefix}3drainbow [txt]
-┃╠🔥${prefix}3dwaterpipe [txt]
-┃╠🔥${prefix}halloweenskeleton [txt]
-┃╠🔥${prefix}sketch [txt]
-┃╠🔥${prefix}bluecircuit [txt]
-┃╠🔥${prefix}space [txt]
-┃╠🔥${prefix}metallic [txt]
-┃╠🔥${prefix}fiction [txt]
-┃╠🔥${prefix}greenhorror [txt]
-┃╠🔥${prefix}transformer [txt]
-┃╠🔥${prefix}berry [txt]
-┃╠🔥${prefix}thunder [txt]
-┃╠🔥${prefix}magma [txt]
-┃╠🔥${prefix}3dcrackedstone [txt]
-┃╠🔥${prefix}3dneonlight [txt]
-┃╠🔥${prefix}impressiveglitch [txt]
-┃╠🔥${prefix}naturalleaves [txt]
-┃╠🔥${prefix}fireworksparkle [txt]
-┃╠🔥${prefix}matrix [txt]
-┃╠🔥${prefix}dropwater [txt]
-┃╠🔥${prefix}harrypotter [txt]
-┃╠🔥${prefix}foggywindow [txt]
-┃╠🔥${prefix}neondevils [txt]
-┃╠🔥${prefix}christmasholiday [txt]
-┃╠🔥${prefix}3dgradient [txt]
-┃╠🔥${prefix}blackpink [txt]
-┃╠🔥${prefix}gluetext [txt]
+┃╠🔥${prefix}candy
+┃╠🔥${prefix}blackpinkneon
+┃╠🔥${prefix}deepsea
+┃╠🔥${prefix}scifi
+┃╠🔥${prefix}fiction
+┃╠🔥${prefix}berry
+┃╠🔥${prefix}fruitjuice
+┃╠🔥${prefix}biscuit
+┃╠🔥${prefix}wood
+┃╠🔥${prefix}chocolate
+┃╠🔥${prefix}matrix
+┃╠🔥${prefix}blood
+┃╠🔥${prefix}halloween
+┃╠🔥${prefix}wicker
+┃╠🔥${prefix}darkgold
+┃╠🔥${prefix}firework
+┃╠🔥${prefix}skeleton
+┃╠🔥${prefix}sand
+┃╠🔥${prefix}glue
+┃╠🔥${prefix}leaves
+┃╠🔥${prefix}magma
+┃╠🔥${prefix}lava
+┃╠🔥${prefix}rock
+┃╠🔥${prefix}bloodglas
+┃╠🔥${prefix}underwater
+┃╠🔥${prefix}textmaker
+┃╠🔥${prefix}honey
+┃╠🔥${prefix}ice
+┃╠🔥${prefix}watercolor
+┃╠🔥${prefix}multicolor
+┃╠🔥${prefix}snow
+┃╠🔥${prefix}harrypot
+┃╠🔥${prefix}harrypotter
+┃╠🔥${prefix}brokenglass
+┃╠🔥${prefix}waterpipe
+┃╠🔥${prefix}spooky
+┃╠🔥${prefix}circuit
+┃╠🔥${prefix}metallic
+┃╠🔥${prefix}demon
+┃╠🔥${prefix}sparklechristmas
+┃╠🔥${prefix}christmas
+┃╠🔥${prefix}3dchristmas
+┃╠🔥${prefix}3dbox
+┃╠🔥${prefix}waterdrop
+┃╠🔥${prefix}lion2
+┃╠🔥${prefix}papercut
+┃╠🔥${prefix}transformer
+┃╠🔥${prefix}neondevil
+┃╠🔥${prefix}3davengers
+┃╠🔥${prefix}3dstone
+┃╠🔥${prefix}3dstone2
+┃╠🔥${prefix}summertime
+┃╠🔥${prefix}thunder
+┃╠🔥${prefix}window
+┃╠🔥${prefix}graffiti
+┃╠🔥${prefix}graffitibike
+┃╠🔥${prefix}pornhub
+┃╠🔥${prefix}glitch
+┃╠🔥${prefix}blackpink
+┃╠🔥${prefix}glitch2
+┃╠🔥${prefix}glitch3
+┃╠🔥${prefix}3dspace
+┃╠🔥${prefix}lion
+┃╠🔥${prefix}3dneon
+┃╠🔥${prefix}greenneon
+┃╠🔥${prefix}bokeh
+┃╠🔥${prefix}holographic
+┃╠🔥${prefix}bear
+┃╠🔥${prefix}wolf
+┃╠🔥${prefix}joker
+┃╠🔥${prefix}dropwater
+┃╠🔥${prefix}dropwater2
+┃╠🔥${prefix}thewall
+┃╠🔥${prefix}neonlight
+┃╠🔥${prefix}natural
+┃╠🔥${prefix}carbon
+┃╠🔥${prefix}pencil
+┃╠🔥${prefix}blackpink2
+┃╠🔥${prefix}neon
+┃╠🔥${prefix}neonlight2
+┃╠🔥${prefix}toxic
+┃╠🔥${prefix}strawberry
+┃╠🔥${prefix}discovery
+┃╠🔥${prefix}1917
+┃╠🔥${prefix}sci_fi
+┃╠🔥${prefix}ancient
+┃╠🔥${prefix}fabric
+┃╠🔥${prefix}hoorror
+┃╠🔥${prefix}whitebear
+┃╠🔥${prefix}juice
+┃╠🔥${prefix}batman
+┃╠🔥${prefix}multicolor
+┃╠🔥${prefix}collwall
+┃╠🔥${prefix}wonderful
+┃╠🔥${prefix}cool
+┃╠🔥${prefix}sketch
+┃╠🔥${prefix}marvel
+┃╠🔥${prefix}foggy
+┃╠🔥${prefix}writing
+┃╠🔥${prefix}halloweenfire
+┃╠🔥${prefix}halloween
+┃╠🔥${prefix}watercolor
+┃╠🔥${prefix}classic
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}}, urlButton": {"displayText": "Owner","url": "https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu"}}, {"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}}] )
 break
 case 'convertmenu':
 var unicorn = await getBuffer(picak+'Converter Menu')
@@ -4173,7 +4247,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🔥${prefix}ebinary [reply txt]
 ┃╠🔥${prefix}dbinary [reply txt]
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}}, urlButton": {"displayText": "Owner","url": "https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu"}}, {"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}}] )
 break
 case 'databasemenu':
 var unicorn = await getBuffer(picak+'Database Menu')
@@ -4189,7 +4263,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🔥${prefix}getmsg
 ┃╠🔥${prefix}delmsg
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}}, urlButton": {"displayText": "Owner","url": "https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu"}}, {"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}}] )
 break
 case 'databasemenu':
 var unicorn = await getBuffer(picak+'Database Menu')
@@ -4201,18 +4275,18 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🔥${prefix}next
 ┃╠🔥${prefix}leave
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}}, urlButton": {"displayText": "Owner","url": "https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu"}}, {"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}}] )
 break
-case 'hbmods':
+case 'hbmods' case 'hbmodsmenu':
 var unicorn = await getBuffer(picak+'HBMods Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━「 ${botname} 」━━⭓ 
 ┃╔══✪「 HBMods menu」	        
 ┃╠🔥${prefix}youtubepro
 ┃╠🔥${prefix}instagrampro
-┃╠🔥${prefix}gbwhtsapp
+┃╠🔥${prefix}gbwhatsapp
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}}, urlButton": {"displayText": "Owner","url": "https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu"}}, {"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}}] )
 break
 case 'voicechangermenu':
 var unicorn = await getBuffer(picak+'Voice Changer Menu')
@@ -4231,7 +4305,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🔥${prefix}slow [reply aud]
 ┃╠🔥${prefix}squirrel [reply aud]
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}}, urlButton": {"displayText": "Owner","url": "https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu"}}, {"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}}] )
 break
 case 'horoscopemenu':
 var unicorn = await getBuffer(picak+'Horoscope Menu')
@@ -4269,7 +4343,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╠🔥${prefix}zodiak (DOB)
 ┃╠🔥${prefix}shio (DOB)
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}}, urlButton": {"displayText": "Owner","url": "https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu"}}, {"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}}] )
 break
 case 'thanksto': case 'tqto': case 'tqtt':
 var unicorn = await getBuffer(picak+'Developer')
@@ -4277,7 +4351,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 Thanks to Me (HBWABOT)
 Alien-Alfa (For helping me to deploy qr in replit and answered my every doubts regard this project)
 DGXeon ( 45% Credits goes to him ,in this script)
-And Again Me (HBMods) 🌚 Who Helped Assemble This Sexy Script !!!`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","url": 'https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu'}}] )
+And Again Me (HBMods) 🌚 Who Helped Assemble This Sexy Script !!!`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}}, urlButton": {"displayText": "Owner","url": "https://api.whatsapp.com/send?phone=+918416093656&text=Hey+Bot+siamtu"}}, {"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}}] )
 break
             default:
                 if (budy.startsWith('=>')) {
