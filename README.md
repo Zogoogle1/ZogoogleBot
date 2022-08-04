@@ -6,7 +6,7 @@
 
 > <a href="https://youtube.com/c/HBSuantakOfficialChannel"><img src="https://img.shields.io/badge/Tutorial-Video-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtube.com/c/HBSuantakOfficialChannel" /><br>
 
-> [Automated Multi Device whatsapp bot created](https://github.com/HBMods1/Herbert) by [Herbert the best](https://www.instagram.com/herbert_suantak2)
+> [Automated Multi Device whatsapp bot created](https://github.com/HBMods1/Herbert) by [Herbert Sauntak](https://www.instagram.com/herbert_suantak2)
 
 > Dont forget to give a star bro.🥲 IF Heroku Deploy seems Error, Fork This Repo And Try Deploy Again
 
