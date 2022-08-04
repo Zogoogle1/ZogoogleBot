@@ -15,7 +15,7 @@
 
 </br>
 
-<a href="https://github.com/HBMods1"><img title="Author" src="https://img.shields.io/badge/Author-nexusNw-blue.svg?color=54aeff&style=for-the-badge&logo=github" /></a>  
+<a href="https://github.com/HBMods1"><img title="Author" src="https://img.shields.io/badge/Author-HBMods-blue.svg?color=54aeff&style=for-the-badge&logo=github" /></a>  
 <a href="https://github.com/HBMods1/Herbert"><img title="Stars" src="https://img.shields.io/github/stars/HBMods1/Herbert?color=54aeff&style=flat-square" /></a>
 <a href="https://github.com/HBMods1/Herbert/network/members"><img title="Forks" src="https://img.shields.io/github/forks/HBMods1/Herbert?color=54aeff&style=flat-square" /></a>
 <a href="https://github.com/HBMods1/Herbert/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/HBMods1/Herbert?label=watchers&color=54aeff&style=flat-square" /></a> <br>
@@ -38,7 +38,7 @@ Add FFmpeg to PATH environment variable
 <!-- Start via Heroku -->
 <b><details><summary>Start via Heroku</summary></b>
 
-* Scan QR In Your Whatsapp From [Here](https://replit.com/@HBMods/Multidevice-scanner?v=1?outputonly=1&lite=1#index.js)
+* Scan QR In Your Whatsapp From [Here](https://replit.com/@Herbert70/HBMods2?v=1?outputonly=1&lite=1#index.js)
 * Fork This Repo By Clicking [Here](https://github.com/HBMods/Herbert/fork)
 * then Deploy The Bot From [Here](https://heroku.com/deploy)
 * Wait 5-10 Min To Deploy 
