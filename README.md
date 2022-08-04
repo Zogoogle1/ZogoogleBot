@@ -119,7 +119,7 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 * [`@adiwajshing/baileys`](https://github.com/adiwajshing/baileys)
 * [`Alien-Alfa`](https://github.com/Alien-Alfa)
 * [`DGXeon`](https://github.com/DGXeon)
-* [`AflahXrd`](https://github.com/nexusNw)
+
 * [`HBMods`](https://github.com/HBMods1)
 
 License: [MIT](https://github.com/HBMods1/LICENSE)
